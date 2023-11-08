@@ -1,0 +1,40 @@
+
+.main-container-photograph{
+
+    &-header {
+        background-color: $backgroundColor;
+        height: 300px;
+        margin: 0 100px;
+
+        &-button {
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            padding: 11px;
+            width: 170px;
+            height: 70px;
+            border: none;
+            background-color: $principalColor;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
