@@ -16,18 +16,18 @@
         <button class="contact_button main-container-photograph-header-button" onclick="displayModal()">Contactez-moi</button>
       </div>
     </main>
-    <div id="contact_modal">
-			<div class="modal">
-				<header>
-          <h2>Contactez-moi</h2>
-          <img src="assets/icons/close.svg" onclick="closeModal()" />
+    <div id="contact_modal" class="container-contact">
+			<div class="modal  container-contact-modal">
+				<header class="container-contact-modal-header">
+          <h2 class="container-contact-modal-header-title">Contactez-moi</h2>
+          <img class="container-contact-modal-header-img" src="assets/icons/close.svg" onclick="closeModal()" />
         </header>
-				<form>
-					<div>
-						<label>Prénom</label>
-						<input />
+				<form class="container-contact-modal-form">
+					<div class="container-contact-modal-form-content">
+						<label class="container-contact-modal-form-content-label">Prénom</label>
+						<input class="container-contact-modal-form-content-input" />
 					</div>
-          <button class="contact_button">Envoyer</button>
+          <button class="contact_button container-contact-modal-form-content-button">Envoyer</button>
 				</form>
 			</div>
 		</div>
