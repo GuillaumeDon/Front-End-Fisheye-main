@@ -83,16 +83,16 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.main-container-photographer-section-article-img {
+.main-container-photographer-section-article-id-img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
 }
-.main-container-photographer-section-article-title {
+.main-container-photographer-section-article-id-title {
   color: #D3573C;
   font-size: 36px;
 }
-.main-container-photographer-section-article-location {
+.main-container-photographer-section-article-content-location {
   color: #901C1C;
   font-size: 36px;
 }
