@@ -9,29 +9,35 @@
   </head>
   <body>
     <header class="header-container">
-      <img class="header-container-logo"src="assets/images/logo.png" class="logo" alt="logo du site" />
+      <img class="header-container-logo" src="assets/images/logo.png"/>
     </header>
-    <main id="main" class="main-container-photograph">
-      <div class="photograph-header main-container-photograph-header">
-        <button class="contact_button main-container-photograph-header-button" aria-label="Ouvrir le formulaire de contact"  onclick="displayModal()">Contactez-moi</button>
+    <main id="main-photographer" class="main-photographer-container">
+      <div class="main-photographer-container-header">
+        <button class="main-photographer-container-header-contact" onclick="displayModal()">Contactez-moi</button>
       </div>
     </main>
-    <div id="contact_modal" class="container-contact">
-			<div class="modal  container-contact-modal">
-				<header class="container-contact-modal-header">
-          <h2 class="container-contact-modal-header-title">Contactez-moi</h2>
-          <img class="container-contact-modal-header-img" src="assets/icons/close.svg" alt="fermeture du formulaire de contact" onclick="closeModal()" />
+    <div id="contact_modal">
+			<div class="modal">
+				<header>
+          <h2>Contactez-moi</h2>
+          <img src="assets/icons/close.svg" onclick="closeModal()" />
         </header>
-				<form class="container-contact-modal-form">
-					<div class="container-contact-modal-form-content">
-						<label class="container-contact-modal-form-content-label">Prénom</label>
-						<input class="container-contact-modal-form-content-input" />
-					</div>
-          <button class="contact_button container-contact-modal-form-content-button" aria-label="Envoyer le formulaire de contact">Envoyer</button>
-				</form>
+
 			</div>
 		</div>
     <script src="/scripts/pages/photographer.js"></script>
     <script src="/scripts/utils/contactForm.js"></script>
   </body>
 </html>
+
+
+
+
+
+				<!-- <form>
+					<div>
+						<label>Prénom</label>
+						<input />
+					</div>
+          <button class="contact_button">Envoyer</button>
+				</form> -->
