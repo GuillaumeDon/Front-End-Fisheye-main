@@ -1,11 +1,18 @@
 
-.main-container-photograph{
+.main-photographer-container{
 
     &-header {
         background-color: $backgroundColor;
         height: 300px;
         margin: 0 100px;
 
+
+        &-picture{
+            height: 12.5rem;
+            width: 12.5rem;
+            border-radius: 50%;
+            object-fit: cover;
+        }
         &-button {
             font-size: 20px;
             font-weight: bold;

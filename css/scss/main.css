@@ -3,6 +3,11 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .header-container {
   display: flex;
   flex-direction: row;
@@ -113,12 +118,19 @@ body {
   font-size: 9px;
 }
 
-.main-container-photograph-header {
+.main-photographer-container-header {
   background-color: #FAFAFA;
   height: 300px;
   margin: 0 100px;
 }
-.main-container-photograph-header-button {
+.main-photographer-container-header-picture {
+  height: 12.5rem;
+  width: 12.5rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main-photographer-container-header-button {
   font-size: 20px;
   font-weight: bold;
   color: white;
